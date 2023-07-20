@@ -1,7 +1,8 @@
+import { nanoid } from 'nanoid';
 import { Component } from 'react';
+
 import { ContactForm } from './ContactForm/ContactForm';
 import { ContactList } from './ContactList/ContactList';
-import { nanoid } from 'nanoid';
 import { Filter } from './Filter/Filter';
 
 function isOnList(list, value) {
